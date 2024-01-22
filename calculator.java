@@ -144,6 +144,12 @@ public class calculator implements ActionListener {
         frame.add(panel3);
         frame.add(panel2);
         frame.add(buttonclr);
+        ImageIcon icon = new ImageIcon("calculator.png");
+        frame.setIconImage(icon.getImage());
+
+
+
+
 
 
     }
@@ -212,10 +218,7 @@ public class calculator implements ActionListener {
     }
 
 
-    public static void main(String[] args) {
-        calculator calculator = new calculator();
-        calculator.calculator();
-    }
+
 }
 
 
